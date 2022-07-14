@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: ephemeral-debugger-pod
-spec:
-  containers:
-    - name: ephemeral-debugger-container
-      image: quay.io/rh_ee_addrew/debug-app:latest
