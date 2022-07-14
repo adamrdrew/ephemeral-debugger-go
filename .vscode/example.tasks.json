@@ -4,7 +4,7 @@
         "env": {
             "QUAY_USERNAME": "Your Quay.io username",
             "QUAY_REPO": "Your Quay.io repository",
-            "TAG": "lastest - You probably want to leave this as latest, but you could use different tags as you see fit",
+            "TAG": "lastest",
             "EPHEMERAL_NAMESPACE": "Your ephemeral namespace"
         }
     },
