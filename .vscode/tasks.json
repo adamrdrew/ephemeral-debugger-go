@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "options": {
+        "env": {
+            "QUAY_USERNAME": "rh_ee_addrew",
+            "QUAY_REPO": "debug-app",
+            "TAG": "latest",
+            "EPHEMERAL_NAMESPACE": "none",
+        }
+    },
+    "tasks": [{
+        "label": "buildAndDeployDebugger",
+        "command": "scripts/./buildAndDeployDebugger.sh",
+        "type": "shell"
+    },
+    {
+        "label": "terminateDebugger",
+        "command": "scripts/./terminateDebugger.sh",
+        "type": "shell"
+    }],
+}
