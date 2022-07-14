@@ -17,5 +17,5 @@
         "label": "terminateDebugger",
         "command": "scripts/./terminateDebugger.sh",
         "type": "shell"
-    }],
+    }]
 }
