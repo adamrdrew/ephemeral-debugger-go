@@ -1,6 +1,10 @@
 # Ephemeral Debugger for Go Apps
 This project allows you to execute and debug your code in a managed ephemeral environment. It manages the process of containerizing your app, setting up a debugger, and working with Quay and Openshift. All you have to do is click "Ephemeral Debugger" in the VSCode "Run and Debug" dialog and your code will be automagically set up in ephemeral with a remote debugger attached.
 
+## Requirements
+* [Bonfire](https://github.com/RedHatInsights/bonfire)
+* [oc](https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/developer-cli-commands.html)
+
 ## Config
 0. Reserve an ephemeral namespace with Bonfire and note the name
 0. Copy `.vscode/example.tasks.json` to `.vscode/tasks.json`
