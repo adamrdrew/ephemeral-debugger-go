@@ -10,10 +10,7 @@
             "mode": "remote",
             "remotePath": "",
             "port":32345,
-            "host":"a3c12d76ddacd43edab411a3ad98e46e-1574964947.us-east-1.elb.amazonaws.com",
-            "showLog": true,
-            "trace": "log",
-            "logOutput": "rpc"
+            "host":"a604e8aa315f2401b92b900bd8c4ca00-111303071.us-east-1.elb.amazonaws.com",
         }
     ]
 }

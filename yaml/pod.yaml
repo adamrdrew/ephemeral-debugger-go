@@ -8,3 +8,4 @@ spec:
   containers:
     - name: ephemeral-debugger-container
       image: quay.io/QUAY_USERNAME/QUAY_REPO:TAG
+      imagePullPolicy: Always

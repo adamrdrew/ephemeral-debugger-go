@@ -5,7 +5,7 @@
             "QUAY_USERNAME": "rh_ee_addrew",
             "QUAY_REPO": "debug-app",
             "TAG": "latest",
-            "EPHEMERAL_NAMESPACE": "ephemeral-zo5wkr",
+            "EPHEMERAL_NAMESPACE": "ephemeral-wjbumf",
         }
     },
     "tasks": [{
