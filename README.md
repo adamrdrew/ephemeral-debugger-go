@@ -19,3 +19,16 @@ This project allows you to execute and debug your code in a managed ephemeral en
 * [Go remote debug delve](https://github.com/antelman107/go-remote-debug-delve)
 
 ## Helpful Commands
+```
+#Describe the service and get the ingress URL
+oc describe service ephemeral-debugger-service -n ephemeral-wjbumf
+
+#Describe the pod and get details on status
+oc describe pod ephemeral-debugger-pod -n ephemeral-ezprya
+
+#Get a shell in the pod
+oc exec ephemeral-debugger-pod -n ephemeral-ezprya -i -t -- bash
+
+#Get pod logs
+oc logs ephemeral-debugger-pod -n ephemeral-ezprya
+```
